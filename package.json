@@ -1,0 +1,30 @@
+{
+  "name": "deal-creator-checker-queue",
+  "description": "A node.js driver for deal-creator checker queue. This will provide three different queues \"mkt.etoe.testing.delay.exchange\", \"mkt.etoe.testing.check.exchange\", \"mkt.etoe.testing.approve.exchange\"",
+  "version": "0.0.1",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/wowcher/marketplace_automation.git"
+  },
+  "dependencies": {
+    "amqplib": "^0.4.1"
+  },
+  "devDependencies": {
+    "eslint": "1.10.1",
+    "istanbul": "0.4.2",
+    "require-all": "2.0.0",
+    "rimraf": "2.2.8",
+    "timezone-mock": "0.0.0",
+    "mkdirp": "0.5.1",
+    "urun": "0.0.8",
+    "utest": "0.0.8"
+  },
+  "files": [
+    "lib/",
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
